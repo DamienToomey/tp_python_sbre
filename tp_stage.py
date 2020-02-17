@@ -603,7 +603,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "<p>My name is Damien Toomey.</p>            <p>Here is the link to sklearn : <a href='http://scikit-learn.org'>http://scikit-learn.org</a></p>"
+    return "<body><p>My name is Damien Toomey.</p>            <p>Here is the link to sklearn : <a href='http://scikit-learn.org'>http://scikit-learn.org</a></p>            <img src='http://openclassroom.stanford.edu/MainFolder/courses/MachineLearning/exercises/ex9materials/bird_large.jpg' alt='A bird' style='width:500px;height:600px;''></body>"
 
 if __name__ == '__main__':
     app.run()
